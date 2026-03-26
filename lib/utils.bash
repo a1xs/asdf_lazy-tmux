@@ -101,8 +101,8 @@ download_release() {
   version="$1"
   filename="$2"
 
-  url="$GH_REPO/releases/download/${version}/lazy-tmux_$(get_platform)_$(get_arch).$(get_extension)"
-  url_old="$GH_REPO/releases/download/${version}/lazy-tmux_$(get_platform_old)_$(get_arch).$(get_extension)"
+  url="$GH_REPO/releases/download/v${version}/lazy-tmux_$(get_platform)_$(get_arch).$(get_extension)"
+  url_old="$GH_REPO/releases/download/v${version}/lazy-tmux_$(get_platform_old)_$(get_arch).$(get_extension)"
 
   echo "* Downloading $TOOL_NAME release $version..."
   curl "${curl_opts[@]}" -o "$filename" -C - "$url" ||
