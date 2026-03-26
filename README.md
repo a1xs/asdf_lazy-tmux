@@ -8,7 +8,7 @@ https://github.com/alchemmist/lazy-tmux
 # Install plugin
 
 ```bash
-asdf plugin add lazy-tmux https://github.com/alchemmist/lazy-tmux
+asdf plugin add lazy-tmux https://github.com/a1xs/asdf_lazy-tmux
 ```
 
 
