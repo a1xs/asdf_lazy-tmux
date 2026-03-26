@@ -84,9 +84,9 @@ get_extension() {
   local extension=""
 
   case "$(uname | tr '[:upper:]' '[:lower:]')" in
-  darwin) extension="tgz" ;;
-  freebsd) extension="tgz" ;;
-  linux) extension="tgz" ;;
+  darwin) extension="tar.gz " ;;
+  freebsd) extension="tar.gz " ;;
+  linux) extension="tar.gz " ;;
   windows) extension="zip" ;;
   *)
     fail "Platform '$(uname)' not supported!"
