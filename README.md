@@ -21,6 +21,6 @@ asdf install lazy-tmux latest
 
 ## Install specific version
 ```bash
-asdf install lazy-tmux 0.1.10
+asdf install lazy-tmux v0.1.10
 ```
 
